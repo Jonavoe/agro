@@ -1,13 +1,16 @@
 import React from 'react'
-import logo from "@/Assets/Img/Logo.png"
-import Image from 'next/image'
+import ImageChange from '@/Components/ImageChange'
+import Otro from '@/Components/Otro'
+import Logo from '@/Components/Logo'
 
 type Props = {}
 
 export default function Main({ }: Props) {
     return (
-        <div>
-            <Image src={logo} alt='logo' />
+        <div className='flex flex-col font-cinzel animate-main'>
+            <ImageChange />
+            <Logo />
+            <Otro />
         </div>
     )
 }
