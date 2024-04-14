@@ -20,7 +20,7 @@ export default function Logo({ }: Props) {
 
             <div className='bg-[--white] hover:bg-[--hover-white] rounded-md px-6 py-2'>
                 <p className='uppercase text-[--principal] font-semibold drop-shadow-lg'>
-                    Bienvenidos
+                    Bienvenido
                 </p>
             </div>
         </div>
