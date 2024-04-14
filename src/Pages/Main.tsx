@@ -1,7 +1,7 @@
 import React from 'react'
-import ImageChange from '@/components/ImageChange'
-import Otro from '@/components/Otro'
-import Logo from '@/components/Logo'
+import ImageChange from '@/Components/ImageChange'
+import Otro from '@/Components/Otro'
+import Logo from '@/Components/Logo'
 
 type Props = {}
 
