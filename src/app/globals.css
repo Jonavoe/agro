@@ -5,10 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --principal: #35682d;
-  --white: #f1f1f1;
-  --hover-white: #d1d1d1;
+  --background: #f0e2cf;
+  --principal: #367c2b;
+  --red: #d20019;
+  --hover-principal: #5fb852;
+  --white: #f0e2cf;
+  --hover-white: #e2e1e1;
 }
 
 @keyframes animateFromCenter {
