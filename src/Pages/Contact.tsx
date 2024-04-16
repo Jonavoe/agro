@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 type Props = {}
@@ -20,7 +21,8 @@ export default function Contact({ }: Props) {
                         </div>
                         <div className='flex flex-col gap-2'>
                             <p><b>Teléfono</b> (3442) 229328</p>
-                            <p><b>Email</b> voeffray.jonathan@gmail.com</p>
+                            <p><b>Email</b> <Link href={"mailto:voeffray.jonathan@gmail.com"} target='_blank' className='hover:underline'>voeffray.jonathan@gmail.com
+                            </Link> </p>
                         </div>
                     </div>
                 </div>
