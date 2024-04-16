@@ -7,6 +7,11 @@ import Card from './Card'
 import Service from './Service'
 import Planification from './Planification'
 import Jobs from './Jobs'
+import Info from './Info'
+import Contact from './Contact'
+import Consult from './Consult'
+import Maps from './Maps'
+import Footer from './Footer'
 
 type Props = {}
 
@@ -21,6 +26,11 @@ export default function Main({ }: Props) {
             <Service />
             <Planification />
             <Jobs />
+            <Info />
+            <Contact />
+            <Consult />
+            <Maps />
+            <Footer />
         </div>
     )
 }
