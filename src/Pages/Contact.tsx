@@ -34,8 +34,8 @@ export default function Contact({ }: Props) {
                             <p><b>Teléfono </b> (3442) 229328</p>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <p><b>Maria Belén Ocampo</b> (3442) 229328</p>
-                            <p><b>Email</b> mariabelenocampo@gmail.com</p>
+                            <p><b>Gonzales Juan</b> (3442) 229328</p>
+                            <p><b>Email</b> gonzalesjuan@gmail.com</p>
                         </div>
                     </div>
                 </div>
