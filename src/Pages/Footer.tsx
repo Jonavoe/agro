@@ -8,7 +8,7 @@ type Props = {}
 
 export default function Footer({ }: Props) {
 
-    const [color, setColor] = useState("")
+    const [color, setColor] = useState("#367c2b")
 
     const mouseIn = () => {
         setColor("#5fb852")
@@ -18,7 +18,7 @@ export default function Footer({ }: Props) {
         setColor("#367c2b")
     }
     return (
-        <div className='bg-[--white] w-full z-10 flex flex-col justify-center items-center text-[--text] gap-5 py-20'>
+        <div className='bg-[--background] w-full z-10 flex flex-col justify-center items-center text-[--text] gap-5 py-20'>
 
             <Image src={Logo} alt='logo' className='w-32 rounded-md' />
             <p className='text-sm'>© 2017 Belloni.</p>
