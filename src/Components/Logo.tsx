@@ -8,8 +8,8 @@ type Props = {}
 
 export default function Logo({ }: Props) {
     return (
-        <div className='flex flex-col gap-2 z-10 h-screen items-center lg:pt-40 py-10'>
-            <div className='lg:w-72 w-36 rounded-lg'>
+        <div className='flex flex-col gap-2 z-10 h-screen justify-center items-center lg:pt-40 py-10'>
+            <div className='lg:w-72 w-60 rounded-lg'>
 
                 <Image src={LogoImage} alt='Logo' className='animate-image rounded-lg' />
             </div>
