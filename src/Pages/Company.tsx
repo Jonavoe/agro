@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Company({ }: Props) {
     return (
-        <div className='bg-[--background] w-full z-10 flex flex-col justify-center items-center text-[--principal] gap-5 py-20'>
+        <div id='company' className='bg-[--background] w-full z-10 flex flex-col justify-center items-center text-[--principal] gap-5 py-20'>
             <div className='flex flex-col justify-center items-center gap-3'>
                 <h2 className='uppercase text-4xl font-semibold'>la empresa</h2>
                 <p className='font-semibold'>Servicios Agropecuarios. Asesoramiento Técnico Agrícola.</p>
