@@ -17,7 +17,7 @@ type Props = {}
 
 export default function Main({ }: Props) {
     return (
-        <div className='flex flex-col font-cinzel animate-main'>
+        <div className='flex flex-col animate-main'>
             <ImageChange />
             <Logo />
             <Company />
