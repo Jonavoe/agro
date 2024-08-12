@@ -1,6 +1,3 @@
-Aquí tienes el `README.md` para tu repositorio "agro":
-
-````markdown
 # Agro
 
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -34,6 +31,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/Jonavoe/agro.git
    ```
+
 ````
 
 2. Navega al directorio del proyecto:
@@ -78,3 +76,4 @@ Si tienes alguna pregunta o sugerencia, puedes contactarme en:
 ---
 
 ¡Gracias por visitar el proyecto!
+````
